@@ -7,7 +7,7 @@ public:
        }   
       
         unordered_map<int,int> mpp;
-        int ans=0,prefix=0;
+        long long int ans=0,prefix=0;
         for(auto it:nums){
             prefix+=it;
             if(prefix==k) ans++;
