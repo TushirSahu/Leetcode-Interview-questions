@@ -2,8 +2,8 @@ class Solution {
 public:
     int numSubarraysWithSum(vector<int>& nums, int goal) {
         int n=nums.size();
-        int l=0,r=0;
-        vector<int> v(nums.size(),nums[0]);
+        // int l=0,r=0;
+        vector<int> v(n,nums[0]);
         map<int,int> mpp;
         for(int i=1;i<n;i++){
             v[i]=v[i-1]+nums[i];
