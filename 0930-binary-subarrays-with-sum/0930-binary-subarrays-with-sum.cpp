@@ -4,7 +4,7 @@ public:
         int n=nums.size();
         int l=0,r=0;
         vector<int> v(nums.size(),nums[0]);
-        unordered_map<int,int> mpp;
+        map<int,int> mpp;
         for(int i=1;i<n;i++){
             v[i]=v[i-1]+nums[i];
         }
