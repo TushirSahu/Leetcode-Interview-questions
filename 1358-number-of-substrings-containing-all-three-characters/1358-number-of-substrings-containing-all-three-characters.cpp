@@ -2,7 +2,7 @@ class Solution {
 public:
     int numberOfSubstrings(string s) {
         int l=0,r=0;
-        int n=s.size();
+        long long int n=s.size();
         unordered_map<char,int> m;
         int res=0;
         while(r<n){
