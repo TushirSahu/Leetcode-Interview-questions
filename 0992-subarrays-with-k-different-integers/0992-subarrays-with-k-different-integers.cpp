@@ -2,7 +2,7 @@ class Solution {
 public:
     int atmost(vector<int> &nums,int k){
         int n=nums.size();
-        int l=0,r=0;
+        long long int l=0,r=0;
         int size=0,cnt=0;
         unordered_map<int,int> mpp;
         while(r<n){
